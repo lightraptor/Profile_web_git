@@ -2,11 +2,20 @@ body {
     padding: 0px;
     margin:0px;
     font-family: 'Roboto Mono', monospace;
-    background: linear-gradient(45deg,rgb(126, 211, 236), rgb(0,97,161)) fixed no-repeat;
+    background: url("/images/background.jpg") fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .title-nav {
     text-align: center;
     color: white;
+    margin-bottom:0 ;
+}
+.title-name {
+    color:white;
+    text-align: center;
+    margin-top: 0;
 }
 .info {
     width: 80%;
@@ -33,20 +42,94 @@ body {
     color:white;
 }
 .w3-message {
+
     margin-top: 15px;
-    background: white;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
     position: relative;
     top:58%;
     left: 50%;
     transform: translate(-50%);
     width: 30%;
     padding: 3vh 0vh;
+    border-radius: 10px;
 }
+
+
 .w3-message p {
     margin-top: 0px;
     margin-bottom: 0px;
-    color:rgb(65, 137, 204);
+    color:white;
     box-sizing: border-box;
+}
+
+.social {
+	margin: 1em 0 0 0;
+}
+.social ul{
+	padding:0;
+	margin:0;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+.social ul li{
+    display: block;
+	margin:1em 0 0 0;
+    padding:1vh 3vh;
+    transition: 0.5s;
+
+}
+.social ul li:hover{
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 30px;
+}
+.social ul li:hover a i.fab {
+    border: solid 2px white;
+    color: white;
+}
+.social ul li:hover a p {
+    color:white;
+}
+.social ul li a {
+	color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.social ul li a i.fab,.social ul li a i.fab{
+    height: 40px;
+    width: 40px;
+    background: none;
+    line-height: 40px;
+    border: solid 2px rgb(11, 48, 168);
+    color: rgb(11, 48, 168);
+    border-radius: 50%;
+   text-decoration: none;
+}
+.social ul li:nth-child(3) a p {
+    padding-top: 10px;
+}
+
+
+.social ul li a p{
+    color:rgb(11, 48, 168);
+    font-size: 16px;
+    margin: 0 0 0 1em;
+    font-weight: 400;
+    display: inline-block;
+}
+
+footer {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+    color: white;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+}
+footer p {
+    margin: 0;
+    padding: 9px 10px;
 }
 @media(max-width:700px) {
     .title-nav {
@@ -65,5 +148,8 @@ body {
         top:72%;
         width: 80%;
         font-size: 14px;
+    }
+    .social ul {
+        flex-direction: column;
     }
 } 
