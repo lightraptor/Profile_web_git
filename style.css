@@ -1,0 +1,26 @@
+body {
+    padding: 0px;
+    margin:0px;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(45deg,rgb(126, 211, 236), rgb(0,97,161)) fixed no-repeat;
+}
+.title-nav {
+    text-align: center;
+    color: white;
+}
+.info {
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+.pic-title-nav img {
+    width: 19vh;
+    min-width: 19vh;
+    height: 142px;
+    border-radius: 30px;
+}
+.title-info p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
