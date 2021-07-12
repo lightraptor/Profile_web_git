@@ -13,6 +13,8 @@ body {
     text-align: center;
     margin:auto;
 }
+
+
 .pic-title-nav img {
     width: 19vh;
     min-width: 19vh;
@@ -23,4 +25,45 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
+    font-weight: 100;
+    font-size: smaller;
 }
+
+.title-info h1 {
+    color:white;
+}
+.w3-message {
+    margin-top: 15px;
+    background: white;
+    position: relative;
+    top:58%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 30%;
+    padding: 3vh 0vh;
+}
+.w3-message p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:rgb(65, 137, 204);
+    box-sizing: border-box;
+}
+@media(max-width:700px) {
+    .title-nav {
+        margin-top:0px;
+    }
+    .pic-title-nav img {
+        height: 20vh;
+    }
+    .title-info h1 {
+        margin-top: 3px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .w3-message {
+        top:72%;
+        width: 80%;
+        font-size: 14px;
+    }
+} 
