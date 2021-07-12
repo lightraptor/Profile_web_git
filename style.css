@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin:0px;
     font-family: 'Roboto Mono', monospace;
-    background: url("/images/background.jpg") fixed no-repeat;
+    background: url("https://github.com/lightraptor2310/Profile_web_git/blob/main/images/background.jpg?raw=true") fixed no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
