@@ -6,6 +6,9 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 .title-nav {
     text-align: center;
@@ -83,7 +86,7 @@ body {
     background-color:rgba(0,0,0,0.7);
     border-radius: 30px;
 }
-.social ul li:hover a i.fab {
+.social ul li:hover a i.fa-brands {
     border: solid 2px white;
     color: white;
 }
@@ -97,7 +100,7 @@ body {
 }
 
 
-.social ul li a i.fab,.social ul li a i.fab{
+.social ul li a i.fa-brands,.social ul li a i.fa-brands{
     height: 40px;
     width: 40px;
     background: none;
@@ -124,6 +127,7 @@ footer {
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
     color: white;
     margin: 0;
+    margin-top: auto;
     text-align: center;
     height: 40px;
 }
